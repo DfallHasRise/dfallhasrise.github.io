@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.744);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+span{
+    color: rgb(0, 155, 155);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: rgb(0, 155, 155);
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+#home{
+    background-color:rgb(0, 155, 155) ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#home .foto{
+    margin: 25px;
+}
+#home .foto img{
+    padding: 25px;
+    border-radius: 50px ;
+}
+h1{
+    color: white;
+    font-size: 75px;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+h4{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+#about{
+    background-color:aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#about .img_about{
+    margin: 25px;
+}
+#about .img_about img{
+    padding: 25px;
+    border-radius: 50px ;
+}
+#about .text_about{
+    padding: 5px;
+}
+#edu_history
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 173, 170);
+}
+#edu_history table
+{
+    padding: 40px;
+}
+#edu_history td
+{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#contact
+{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+#contact img
+{
+    width: 50px ;
+    padding: 60px;
+}
